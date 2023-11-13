@@ -1,0 +1,26 @@
+.card{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+mat-icon{
+    font-size: 21px;
+    
+}
+
+.content{
+   font-weight: 900; 
+   
+}
+.total{
+    font-weight: 100;
+   
+}
+.orange{
+    background-color:#FF6600 ;
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}

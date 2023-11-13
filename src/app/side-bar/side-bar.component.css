@@ -1,0 +1,45 @@
+img{
+    width: 15rem;
+    height: 13rem;
+    border: 3px ridge #FF6600;
+    padding: 10px;
+    margin: 5px;
+
+}
+h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 1rem;
+}
+p{
+    text-align: center;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align:center;
+}
+
+a:hover{
+    color: #FF6600;
+}
+a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #FF6600;
+    margin: auto;
+    display: block;
+}
+a:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+
+}

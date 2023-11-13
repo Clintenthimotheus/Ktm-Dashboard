@@ -1,0 +1,68 @@
+.main{
+    background-image: url("https://cdn.bajajauto.com/-/media/ktm/pro-experience/Tours/Explore-Ladakh-Thrillophilia/banner/desktop/banner.ashx");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    opacity: black 0.6;
+    position: relative;
+}
+
+
+
+.main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) to control the opacity */
+  }
+
+
+
+.tittle-head{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 12rem 0rem 2rem 17rem;
+    color: white;
+    font-family: 'Lugrasimo', cursive;
+}
+.text-center{
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+  
+}
+#main-box{
+  background-color: #F2F2F2;
+  margin-top: 2rem;
+  height: 5rem;
+  padding: 1rem;
+}
+.col-3{
+  display: flex;
+}
+#box{
+  display: flex;
+}
+.trip-time{
+  font-size: 1rem;
+    font-weight: 700;
+}
+#main-box2{
+  background-color: #F2F2F2;
+  /* margin-top: 2rem; */
+  height: 5rem;
+  padding: 1rem;
+  display: flex;
+}
+.trip-deta{
+  font-weight: 100;
+}
+#main-box3{
+  background-color: #F2F2F2;
+  margin-top: 2rem;
+  height: 8rem;
+  padding: 1rem;
+}

@@ -1,0 +1,27 @@
+img{
+    height: 10rem;
+}
+.naked{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 3rem 0rem 4rem 2rem;
+    
+}
+.naked:hover{
+    color: #FF6600;
+}
+.nakedbike h2{
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 2rem 0rem 1rem 4rem;
+}
+.supersport h2{
+    font-size: 1rem;
+    font-weight: 900;
+    margin: 2rem 0rem 1rem 6rem
+}
+.travel h2{
+    margin: 2rem 0rem 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 900;
+}

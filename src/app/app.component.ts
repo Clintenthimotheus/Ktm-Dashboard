@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ktmServiceCenter';
+
+sidebar:boolean=false;
+
+  sideBarOpen(){
+    this.sidebar=!this.sidebar
+
+  }
 }

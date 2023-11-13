@@ -1,0 +1,66 @@
+.image {
+
+    background-image: url("https://www.ktmindia.com/-/media/images/ktm/ktm-bikes/supersport/ktm-rc-200/spotlight-new/desktop.jpg?h=745&iar=0&w=1920&hash=9894425733B013D69C7E2B4C998DE663");
+    height: 38.2rem;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.content-2 {
+    color: white;
+    padding: 19rem 0rem 1rem 12rem;
+    font-size: 2.2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+
+.content-1 {
+    color: white;
+    padding: 0.8rem 12rem;
+    font-size: 3rem;
+    font-family: fangsong;
+    font-weight: 800;
+    animation: slide-down 4s ease-in-out;
+
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateY(0)
+    }
+}
+
+.btn {
+    background-color: #FF6600;
+    padding: 1rem 2rem;
+    margin: 3rem 12rem;
+    border-radius: 2rem;
+}
+
+.col-3 {
+    margin-top: 1.5rem;
+
+}
+
+.text {
+    margin-left: 19px;
+}
+
+.d-flex img {
+    margin-left: 32px;
+}
+
+.text-1 {
+    font-weight: 700;
+
+}
+
+.text-2 {
+    font-weight: 100;
+}
